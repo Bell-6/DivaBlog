@@ -8,5 +8,12 @@
 header{
     display: flex;
     justify-content: space-between;
-    ma
+    margin-left: 30px;
+    margin-right: 36px;
+    margin-top: 21px;
+}
+
+.post{
+    max-width: 1900px;
+
 }
