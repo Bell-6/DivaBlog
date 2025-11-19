@@ -18,16 +18,32 @@
         <section class="secup">
             <div class="divupsec">
                 <h3 class="h3up">Minhas Publicações</h3>
-                <Button class="butup">⊹ Novo post</Button>
+                <Button class="butup" id="abrirmodal">⊹ Novo post</Button>
             </div>
         </section>
 
-        <form>
-            <h3>Criar Post</h3>
-            <p>Preencha com os dados abixo para concluir o post</p>
+        <div class="hidden" id="overlay">
+                <form class="savepost" id="modal">
+                    <h3 class="titsaveup">Criar Post</h3>
+                    <p class="psaveup">Preencha com os dados abixo para concluir o post</p>
+                
+                    <label for="nome"><b>Nome do autor</b></label>
+                    <input type="text" id="nome" name="nome" placeholder="Informe o nome" required>
+        
+                    <label for="título"><b>Título</b></label>
+                    <input type="text" id="título" name="título" placeholder="Informe o título" required>
 
-            <h4>Nome</h4>
-            <input type="text" id="nome" name="nome" required>
-        </form>
+                    <label for="categoria"><b>Categoria</b></label>
+                    <input type="text" id="categoria" name="categoria" placeholder="Informe a categoria" required>
+
+                    <label for="url"><b>URL da imagem</b></label>
+                    <input type="url" id="url" name="url" placeholder="Informe a URL da imagem" required>
+
+                    <label><b>Assunto</b></label>
+                    <textarea id="mensagem" name="mensagem" rows="3" placeholder="Digite o Conteúdo" required></textarea>
+
+                <button class="butsaveup" type="submit">Salvar</button>
+            </form>
+        </div>
 </body>
 </html>
