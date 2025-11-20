@@ -62,17 +62,17 @@
     margin: 0 auto;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 cards por linha */
-    gap: 20px;   /* espaçamento entre os cards */
-    justify-items: center; /* centraliza os cards */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
     width: 100%;
-    max-width: 900px; /* centralizado e elegante */
+    max-width: 900px; 
 }
 
 .publicacoes section{
     justify-content: center;
     width: 100%;
-    max-width: 287px; /* tamanho exato do card */
+    max-width: 287px; 
 }
 
 img{ 
@@ -158,4 +158,5 @@ section h4{
     display: flex;
     align-items: center;
     font-family: 'Poiret one', serif; 
+
 }
