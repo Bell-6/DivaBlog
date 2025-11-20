@@ -59,15 +59,20 @@
 .publicacoes{
     max-width: 900px;
     display: flex;
-
     margin: 0 auto;
     margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards por linha */
+    gap: 20px;   /* espaçamento entre os cards */
+    justify-items: center; /* centraliza os cards */
+    width: 100%;
+    max-width: 900px; /* centralizado e elegante */
 }
 
 .publicacoes section{
- width: 290px;
- margin-left: 9px;
- margin-right: 6px;
+    justify-content: center;
+    width: 100%;
+    max-width: 287px; /* tamanho exato do card */
 }
 
 img{ 
