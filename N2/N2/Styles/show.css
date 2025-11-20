@@ -1,0 +1,66 @@
+.meiohead {
+    width: 100w;
+    height: 90vh;
+    background: url('../Images/Background.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Poiret One', serif;
+}
+
+.butmeiodiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butmeio {
+    color: #FFF;
+    background-color: var(--cor-neon-3);
+    border: none;
+    border-radius: 10px;
+    width: 6rem;
+    height: 2rem;
+    font-family: 'Poiret One', serif
+}
+
+.textmeio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.pmeio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.ppmeio {
+    text-align: center;
+}
+
+.butconhecer {
+    color: #fff;
+    background-color: var(--cor-neon-1);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poiret One', serif
+}
+
+.butexplorar {
+    color: #fff;
+    background-color: var(--cor-neon-4);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poiret One', serif
+}
+
