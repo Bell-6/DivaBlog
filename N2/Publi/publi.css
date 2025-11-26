@@ -152,11 +152,13 @@ section h4{
     font-size: 20px;
     width: 160px;
     background-color: rgb(255, 255, 255);
-    color: var(--cor-neon-1);
+    color: var(--cor-neon-4);
     border-radius: 8px;
     border: none;
     display: flex;
     align-items: center;
     font-family: 'Poiret one', serif; 
+    cursor: pointer;
 
 }
+
