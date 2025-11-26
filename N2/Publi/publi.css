@@ -59,20 +59,15 @@
 .publicacoes{
     max-width: 900px;
     display: flex;
+
     margin: 0 auto;
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; 
-    justify-items: center; 
-    width: 100%;
-    max-width: 900px; 
 }
 
 .publicacoes section{
-    justify-content: center;
-    width: 100%;
-    max-width: 287px; 
+ width: 290px;
+ margin-left: 9px;
+ margin-right: 6px;
 }
 
 img{ 
@@ -152,13 +147,10 @@ section h4{
     font-size: 20px;
     width: 160px;
     background-color: rgb(255, 255, 255);
-    color: var(--cor-neon-4);
+    color: var(--cor-neon-1);
     border-radius: 8px;
     border: none;
     display: flex;
     align-items: center;
     font-family: 'Poiret one', serif; 
-    cursor: pointer;
-
 }
-
