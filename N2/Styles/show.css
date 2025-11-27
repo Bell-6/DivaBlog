@@ -202,9 +202,9 @@
     width: 10%;
     font-family: 'Poiret one', serif;
     padding: 5px;
-    border: 1px solid var(--cor-neon-3);
+    border: 1px solid var(--cor-neon-4);
     border-radius: 5px;
     background-color: #fff;
-    color: var(--cor-neon-3);
+    color: var(--cor-neon-4);
     cursor: pointer;
 }
