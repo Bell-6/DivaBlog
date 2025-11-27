@@ -7,8 +7,16 @@
     margin: 0;
 }
 
+:root {
+    --cor-neon-1:  #8BB4DF;
+    --cor-neon-2: #7173D4;
+    --cor-neon-3: #9c90DD;
+    --cor-neon-4: #9156D1; 
+}
+
+
 .headershow {
-    background-color: #9C90DD;
+    background-color: var(--cor-neon-2);
     height: 300px;
     display: flex;
     justify-content: center;
@@ -23,7 +31,7 @@
   border: none;
   color: black;
   height: 30px;
-  background-color: #9C90DD;
+  background-color: var(--cor-neon-2);
   height: 200px;
   color: #FFF;
 }
@@ -81,9 +89,9 @@
   position: relative;
   margin: -70px auto 0 auto; 
   z-index: 10;
-  box-shadow: 0 8px 20px rgba(54, 0, 125, 0.293);
+  box-shadow: 0 5px 10px rgba(54, 0, 125, 0.293);
   bottom: -150px;
-  height: 130px;
+  height: 180px;
   font-family:  "Roboto", sans-serif;
 }
 
@@ -95,20 +103,48 @@
   align-items: center;
 }
 
+.post-card h1{
+  margin-top: 30px;
+}
+.post-card_desc {
+  display: flex;
+  max-height: 100%;
+}
+
+.post-card_desc p{
+  margin-left: 20px;
+}
+
 .categoria {
   font-size: 12px;
   color: #4e82ff;
   font-weight: bold;
-  border:3px solid var(--cor-neon-1);
+  border:node;
   background-color: #ccd5ec;
 }
 
-.conteudo {
-  padding: 40px 5%;
+.date_and_user{
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.date_and_user p{
+  color: #57555F;
+}
+
+.date_and_user button{
+  height:2px;
+  width: 3px;
+}
+
+.conteudo{
+  margin-top: 40px ;
 }
 
 .conteudo h3{
   font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
 }
 
 footer {
