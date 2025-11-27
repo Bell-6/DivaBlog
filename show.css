@@ -1,0 +1,210 @@
+.meiohead {
+    width: 100w;
+    height: 90vh;
+    background: url('../Images/Background.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Poiret One', serif;
+}
+
+.butmeiodiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butmeio {
+    color: #FFF;
+    background-color: var(--cor-neon-3);
+    border: none;
+    border-radius: 10px;
+    width: 6rem;
+    height: 2rem;
+    font-family: 'Poiret One', serif
+}
+
+.textmeio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.pmeio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.ppmeio {
+    text-align: center;
+}
+
+.butconhecer {
+    color: #fff;
+    background-color: var(--cor-neon-1);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poiret One', serif
+}
+
+.butexplorar {
+    color: #fff;
+    background-color: var(--cor-neon-4);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poiret One', serif
+}
+
+.mainshow {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 3rem;
+    font-family: 'Poiret one', serif;
+}
+
+.divimages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.divimgg {
+    width: 60%;
+    margin-top: 3%;
+}
+
+.imgg {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+.pdiva {
+    margin-bottom: 1%;
+    color: var(--cor-neon-2);
+}
+
+.divps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ptagdes {
+    color: var(--cor-neon-2);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.divimgp {
+    width: 35%;
+    height: 450px;
+    margin-top: 2rem;
+}
+
+.divpimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 8%;
+    
+}
+
+.divpimgs {
+    width: 30%;
+    height: 100%;
+}
+
+.textimg {
+    margin-right: 10%;
+}
+
+.pimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.ptagpop {
+    color: var(--cor-neon-2);
+}
+
+.artigosdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.busca {
+    width: 16%;
+}
+
+.arttotal {
+    margin-top: 5%;
+}
+
+.artdimages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.artimages {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    width: 30%;
+    gap: 5px;
+}
+
+.imgsart {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.tagart {
+    color: var(--cor-neon-2);
+}
+
+.divbutart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.butart {
+    width: 10%;
+    font-family: 'Poiret one', serif;
+    padding: 5px;
+    border: 1px solid var(--cor-neon-4);
+    border-radius: 5px;
+    background-color: #fff;
+    color: var(--cor-neon-4);
+    cursor: pointer;
+}
