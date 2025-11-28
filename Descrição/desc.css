@@ -66,6 +66,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: none;
+    border-radius: 8px;
 }
 
 .banner img {
@@ -117,10 +118,10 @@
 
 .categoria {
   font-size: 12px;
-  color: #4e82ff;
+  color: var(--cor-neon-3);
   font-weight: bold;
   border:node;
-  background-color: #ccd5ec;
+  background-color: #dce0eb;
 }
 
 .date_and_user{
@@ -140,6 +141,10 @@
 
 .conteudo{
   margin-top: 40px ;
+}
+
+.topico{
+  margin-top: 25px;
 }
 
 .conteudo h3{
@@ -182,4 +187,18 @@ footer {
     border: 1px solid #c7bfbfa5;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.compartilhar_conteudo{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #d2d5dd;
+  margin-top: 10% ;
+  padding: 30px;
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+
 }
