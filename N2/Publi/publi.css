@@ -1,3 +1,12 @@
+.divehadup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    font-family: 'Rancho', serif;
+}
+
 .headup {
     display: flex;
     align-items: center;
@@ -15,18 +24,22 @@
     font-family: 'Rancho', serif;
 }
 
-.title{
+.title {
     color: var(--cor-neon-2);
 }
 
 .titup {
-    color: hsl(257, 100%, 94%);
+    color: #fff
 }
 
 .pup {
     color: rgb(255, 255, 255);
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+section {
+    font-family: 'Poiret one', serif;
 }
 
 .secup {
@@ -58,16 +71,16 @@
 
 .publicacoes{
     max-width: 900px;
-    display: flex;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     margin: 0 auto;
     margin-top: 20px;
 }
 
 .publicacoes section{
- width: 290px;
- margin-left: 9px;
- margin-right: 6px;
+    margin-right: 5px;
+    width: 290px;
 }
 
 img{ 
@@ -82,10 +95,9 @@ section h4{
     font-size:20px;
 }
 
-
-.desc{
+.desc {
     margin-top: 8px;
-    font-size: xx-small;
+    font-size: small;
     letter-spacing: 1px;
     word-spacing: 2px;
 }
@@ -107,13 +119,17 @@ section h4{
     color:#C4C4C4;
 }
 
+button {
+    font-family: 'Poiret one', serif;
+}
+
 .botoes {
     margin-top: 8px;
     display: flex;
     justify-content: center;
 }
 
-.edit{
+.edit {
     width: 160px;
     height: 35px;
     margin-right: 15px;
@@ -124,7 +140,7 @@ section h4{
     cursor:pointer;
 }
 
-.delete{
+.delete {
     width: 160px;
     height: 35px;
     background-color: var(--cor-neon-1);
@@ -142,15 +158,121 @@ section h4{
     height: 250px;
 }
 
-.carregarmais{
-    font-weight: bold;
-    font-size: 20px;
-    width: 160px;
-    background-color: rgb(255, 255, 255);
-    color: var(--cor-neon-1);
-    border-radius: 8px;
-    border: none;
+.carregarmais {
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
     font-family: 'Poiret one', serif; 
+    width: 10%;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: var(--cor-neon-4);
+    border-radius: 5px;
+    border: 1px solid var(--cor-neon-4);
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 70%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.divform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 10%;
+    gap: 8px;   
+    font-family: 'Poiret one', serif;
+}
+
+.infocima {
+    margin-bottom: 5%;
+}
+
+.butsave {
+    width: 95%;
+    margin-top: 2%;
+    color: #fff;
+    background-color: var(--cor-neon-4);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+    width: 95%;
+    padding: 8px;
+    padding-left: 5px;
+    border: 1px solid #2d2d2d;
+    border-radius: 5px;
+    font-family: 'Poiret one', serif;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(37, 36, 36, 0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.formex {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1%;
+    padding-left: 2%;
+    gap: 5px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Poiret one', serif;
+}
+
+.dbutex {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+} 
+
+.butex {
+    margin-right: 5%;
+    width: 45%;
+    padding: 5px;
+    color: #fff;
+    background-color: var(--cor-neon-1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butcan {
+    width: 45%;
+    padding: 5px;
+    color: #fff;
+    background-color: var(--cor-neon-3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
