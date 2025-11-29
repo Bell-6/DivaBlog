@@ -85,7 +85,7 @@
 
 .imgg {
     width: 100%;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-bottom: 1%;
     border-radius: 5px;
 }
@@ -147,6 +147,10 @@
     font-weight: bold;
 }
 
+.date_and_user{
+    color:#57555F;
+}
+
 .artigosdiv {
     display: flex;
     justify-content: space-between;
@@ -154,8 +158,12 @@
 }
 
 .busca {
-    width: 16%;
+    width: 19%;
+    height: 36px;
+    border: 1px solid var(--cor-neon-1);
 }
+
+
 
 .arttotal {
     margin-top: 5%;
