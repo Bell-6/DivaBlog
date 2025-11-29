@@ -27,13 +27,17 @@
     color: #FFF;
 }
 
-.but_back{
-  border: none;
-  color: black;
-  height: 30px;
-  background-color: var(--cor-neon-2);
-  height: 200px;
-  color: #FFF;
+.dvoltat {
+    margin: 0 auto;
+    margin-top: 3px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.voltat {
+    font-family: 'Poiret one', serif;
+    color: #fff;
+    text-decoration: none;
 }
 
 .divheaderfirst {
@@ -56,9 +60,9 @@
     position: absolute;
     z-index: 5;         
     margin-top: -60px; 
-    bottom: -150px;  
+    bottom: -170px;  
     width: 1216px;
-    height: 350px;
+    height: 380px;
 }
 
 .banner img{
@@ -69,11 +73,6 @@
     border-radius: 8px;
 }
 
-.banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .desc_total{
   max-width: 800px;
@@ -91,7 +90,7 @@
   margin: -70px auto 0 auto; 
   z-index: 10;
   box-shadow: 0 5px 10px rgba(54, 0, 125, 0.293);
-  bottom: -150px;
+  bottom: -170px;
   height: 180px;
   font-family:  "Roboto", sans-serif;
 }
@@ -152,15 +151,58 @@
   margin-bottom: 10px;
 }
 
+
+.compartilhar_conteudo{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #d2d5dd;
+  margin-top: 10% ;
+  padding: 30px;
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+
+}
+
 footer {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Rancho', serif;
+  background-color: var(--cor-neon-2);
+  margin-top: 5rem;
+}
+
+footer h2{
+  justify-content: space-between;
+  padding: 40px;
+  font-size: xx-large;
+}
+
+footer main{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.artigos{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
     width: 100%;
-    height: 550px;
-    font-family: 'Rancho', serif;
-    background-color:#9C90DD;
-    margin-top: 5rem;
+    margin-top: 1%;
+}
+
+.artigos img{
+    display: flex;
+    margin-top: 1%;
+    width: 320px;
+    gap: 5px;
+    height: 150px;
+    border-radius: 6px;
 }
 
 .divfooter {
@@ -169,6 +211,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .footext {
@@ -187,18 +230,4 @@ footer {
     border: 1px solid #c7bfbfa5;
     border-radius: 50%;
     cursor: pointer;
-}
-
-.compartilhar_conteudo{
-  display: flex;
-  justify-content: space-between;
-  border-top: 2px solid #d2d5dd;
-  margin-top: 10% ;
-  padding: 30px;
-}
-
-.icons{
-  display: flex;
-  gap: 20px;
-
 }
