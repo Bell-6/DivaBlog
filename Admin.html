@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/Global.css">
+    <link rel="stylesheet" href="../Styles/Admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>DivasBlog (Admin)</title>
+</head>
+<body>
+    <div class="divprin">
+        <header class="headup">
+            <div class="divehadup">
+                <h2 class="titup">DivasBlog</h2>
+                <p class="pup">Bem vindo, <strong>Admin!</strong></p>
+            </div>
+        </header>
+
+        <section class="secup">
+            <div class="divupsec">
+                <h3 class="h3up"> Minhas Publicações</h3>
+                <Button class="butup" id="butnovo" type="button"> <i class="fa-regular fa-square-plus" style="color: #ffffff;"></i>  Novo post</Button>
+            </div>
+        </section>          
+
+            <div class="publicacoes">
+                <section> 
+                    <div class="imgPost">
+                        <img src="../Images/Background.png" alt="">
+                    </div>
+
+                    <h4> Coluna nova de presente</h4>
+                    <div class="infor"> 
+                        <p class="desc"> O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.</p>
+                        <div class="date_and_user"> 
+                            <p class="date "> 16, Feb</p>
+                            <p class="perfil"> João Silva </p>
+                        </div>
+                    </div>
+
+                    <div class="botoes">
+                        <button class="edit" type="button">Editar</button>
+                        <button class="delete" type="button">Excluir</button>
+                    </div>
+
+                </section>
+                <section> 
+                    <div class="imgPost">
+                        <img src="../Images/Background.png" alt="">
+                    </div>
+                    <h4> Coluna nova de presente</h4>
+                    <div class="infor"> 
+                        <p class="desc"> O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.</p>
+                        <div class="date_and_user"> 
+                            <p class="date "> 16, Feb</p>
+                            <p class="perfil"> João Silva </p>
+                        </div>
+                    </div>
+                    <div class="botoes">
+                        <button class="edit" type="button"> Editar</button>
+                        <button class="delete">Excluir</button>
+                    </div>
+                </section>
+                
+                <section> 
+                    <div class="imgPost">
+                        <img src="../Images/Background.png" alt="">
+                    </div>
+                    <h4> Coluna nova de presente</h4>
+                    <div class="infor"> 
+                        <p class="desc"> O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.</p>
+                        <div class="date_and_user"> 
+                            <p class="date "> 16, Feb</p>
+                            <p class="perfil"> João Silva </p>
+                        </div>
+                    </div>
+                    <div class="botoes">
+                        <button class="edit" type="button">Editar </button>
+                        <button class="delete" type="button">Excluir</button>
+                    </div>
+                </section>
+            </div>
+            <div class="restodapag">
+                <button class="carregarmais" id="carregarMais" type="button">Carregar mais</button>
+            </div>
+
+    </div>
+
+    <div class="modal-overlay" id="modal-overlay">
+        <form class="form" id="form">
+            <div class="divform">
+                <div class="infocima">
+                    <h3>Criar postagem</h3>
+                    <p>preencha os dados para criar <br> uma postagem</p>
+                </div>
+                
+                <h5>Nome do autor</h5>
+                <input type="text" name="nome" id="nome" placeholder="Informe o nome" required>
+
+                <h5>Titulo</h5>
+                <input type="text" name="titulo" id="titulo" placeholder="Informe o titulo" required>
+
+                <h5>Categoria</h5>
+                <input type="text" name="categoria" id="categoria" placeholder="Informe a categoria" required>
+
+                <h5>URL imagem</h5>
+                <input type="url" name="url" id="url" placeholder="Informe a URL de capa" required>
+
+                <h5>Assunto</h5>
+                <textarea id="mensagem" name="mensagem" rows="3" placeholder="Digite o conteúdo"  required></textarea>
+                
+                <button class="butsave" type="submit" id="salvar">Salvar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="modal-overlay" id="emodal-overlay">
+        <form class="form" id="eform">
+            <div class="divform">
+                <div class="infocima">
+                    <h3>Editar postagem</h3>
+                    <p>preencha os dados para editar <br> uma postagem</p>
+                </div>
+                
+                <h5>Nome do autor</h5>
+                <input type="text" name="nome" id="enome" placeholder="Informe o nome" required>
+
+                <h5>Titulo</h5>
+                <input type="text" name="titulo" id="etitulo" placeholder="Informe o titulo" required>
+
+                <h5>Categoria</h5>
+                <input type="text" name="categoria" id="ecategoria" placeholder="Informe a categoria" required>
+
+                <h5>URL imagem</h5>
+                <input type="url" name="url" id="eurl" placeholder="Informe a URL de capa" required>
+
+                <h5>Assunto</h5>
+                <textarea id="emensagem" name="mensagem" rows="3" placeholder="Digite o conteúdo"  required></textarea>
+                
+                <button class="butsave" type="submit" id="esalvar">Salvar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="modal-overlay" id="exmodal-overlay">
+        <div class="formex">
+            <h3 class="h3ex">Excluir postagem</h3>
+            <p class="pex">Tem certeza que deseja excluir a postagem? <br> Ao clicar em excluir, o processo não pode <br> ser desfeito.</p>
+            <div class="dbutex">
+                <button class="butex" type="button" id="butex">Excluir</button>
+                <button class="butcan" type="button" id="bucan">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../Scripts/Admin.js"></script>
+</body>
+</html>
