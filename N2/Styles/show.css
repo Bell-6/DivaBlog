@@ -21,9 +21,10 @@
     background-color: var(--cor-neon-3);
     border: none;
     border-radius: 10px;
-    width: 6rem;
-    height: 2rem;
-    font-family: 'Poiret One', serif
+    width: 6.5rem;
+    height: 2.5rem;
+    font-family: 'Poiret One', serif;
+    font-size: 18px;
 }
 
 .textmeio {
@@ -31,6 +32,7 @@
     align-items: center;
     justify-content: center;
     color: #FFF;
+    font-size: 24px;
 }
 
 .pmeio {
@@ -38,30 +40,39 @@
     align-items: center;
     justify-content: center;
     color: #fff;
+    font-size: 22px;
 }
 
 .ppmeio {
     text-align: center;
 }
 
+.botoes{
+    margin-top: 20px;
+    display: flex;
+    gap: 17px;
+}
+
 .butconhecer {
     color: #fff;
     background-color: var(--cor-neon-1);
     border: none;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border-radius: 5px;
-    font-family: 'Poiret One', serif
+    font-family: 'Poiret One', serif;
+    font-size: 18px;
 }
 
 .butexplorar {
     color: #fff;
     background-color: var(--cor-neon-4);
     border: none;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border-radius: 5px;
-    font-family: 'Poiret One', serif
+    font-family: 'Poiret One', serif;
+    font-size: 18px;
 }
 
 .mainshow {
@@ -83,30 +94,34 @@
     margin-top: 3%;
 }
 
-.imgg {
-    width: 100%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border-radius: 5px;
+.divimgg h2{
+    font-size: 35px;
 }
 
-.pdiva {
-    margin-bottom: 1%;
-    color: var(--cor-neon-2);
-    font-weight: bold;
+.imgg {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-radius: 5px;
 }
 
 .divps {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .ptagdes {
     color: var(--cor-neon-2);
+    font-size: 20px;
+}
+
+.populares{
+    font-size: 28px;
 }
 
 .textdest {
-    margin-top: 1%;
+    margin-top: 3%;
+    font-size: 25px;
 }
 
 .wrapper {
@@ -115,13 +130,6 @@
     flex-direction: column;
     margin-top: 50px;
     gap: 30px;
-}
-
-.divimgp {
-    width: 45%;
-    height: 450px;
-    margin-top: 4%;
-    margin-left: 3%;
 }
 
 .divpimg {
@@ -135,9 +143,13 @@
 
 .divpimgs {
     display: flex;
-    width: 10vw;
-    height: 10vh;
+    width: 35vh;
+    height: 12vh;
     margin-right: 5%;
+}
+
+.divimgp {
+    margin-left: 200px;
 }
 
 .textimg {
@@ -146,6 +158,7 @@
 
 .textimg p {
     width: 100%;
+    margin-top: 10px;
 }
 
 .pimg {
@@ -176,7 +189,11 @@ input[type = "search"] {
 
 
 .arttotal {
-    margin-top: 5%;
+    margin-top: 7%;
+}
+
+.arttotal h3{
+    font-size: 38px;
 }
 
 .artdimages {
@@ -218,6 +235,7 @@ input[type = "search"] {
 
 .butart {
     width: 10%;
+    height: 42px;
     font-family: 'Poiret one', serif;
     padding: 5px;
     border: 1px solid var(--cor-neon-3);
@@ -225,5 +243,13 @@ input[type = "search"] {
     background-color: #fff;
     color: var(--cor-neon-3);
     cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s ease;
+}
+
+.butart:hover {
+    background-color: var(--cor-neon-3);
+    color: white;
+    transform: scale(1.1);
 }
 

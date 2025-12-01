@@ -60,7 +60,6 @@ function filtrarPosts(termo) {
 function mostrarDestaque(post) {
     destaque.innerHTML = `
         <a href="../Pages/Subpages/Taylor.html?id=${post.id}" class="postLinkd">
-            <h4 class="pdiva">Diva Blog</h4>
             <h2 class="destaque">Em destaque</h2>
             <img src="${post.url}" class="imgg">
 
@@ -215,5 +214,19 @@ btnCarregar.addEventListener("click", () => {
     limiteArtigos += 3;
     controlarArtigos();
 });
+
+// Botão de voltar ao topo funcionar
+const btnScrollToTop = document.getElementById("topp");
+
+btnScrollToTop.addEventListener("click", function () {
+
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    })
+
+
+})
 
 carregarPosts();
