@@ -1,0 +1,255 @@
+.meiohead {
+    width: 100%;
+    height: 80vh;
+    background: url('../Images/Background.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Poiret One', serif;
+}
+
+.butmeiodiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butmeio {
+    color: #FFF;
+    background-color: var(--cor-neon-3);
+    border: none;
+    border-radius: 10px;
+    width: 6.5rem;
+    height: 2.5rem;
+    font-family: 'Poiret One', serif;
+    font-size: 18px;
+}
+
+.textmeio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.pmeio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.ppmeio {
+    text-align: center;
+}
+
+.botoes{
+    margin-top: 20px;
+    display: flex;
+    gap: 17px;
+}
+
+.butconhecer {
+    color: #fff;
+    background-color: var(--cor-neon-1);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Poiret One', serif;
+    font-size: 18px;
+}
+
+.butexplorar {
+    color: #fff;
+    background-color: var(--cor-neon-4);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Poiret One', serif;
+    font-size: 18px;
+}
+
+.mainshow {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 3rem;
+    font-family: 'Poiret one', serif;
+}
+
+.divimages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.divimgg {
+    width: 60%;
+    margin-top: 3%;
+}
+
+.divimgg h2{
+    font-size: 35px;
+}
+
+.imgg {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+.divps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ptagdes {
+    color: var(--cor-neon-2);
+    font-size: 20px;
+}
+
+.populares{
+    font-size: 28px;
+}
+
+.textdest {
+    margin-top: 3%;
+    font-size: 25px;
+}
+
+input[type = "search"] {
+    width: 20%;
+    padding: 5px;
+    border: 1px solid var(--cor-neon-1);
+    border-radius: 5px;
+    color: #5c5a5a;
+    font-family: 'Poiret one', serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.divpimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5%;
+}
+
+.divpimgs {
+    display: flex;
+    width: 35vh;
+    height: 12vh;
+    margin-right: 5%;
+}
+
+.divimgp {
+    margin-left: 200px;
+}
+
+.textimg {
+    width: 100%;
+}
+
+.textimg p {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.ptagpop {
+    color: var(--cor-neon-2);
+    font-weight: bold;
+}
+
+.artigosdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.arttotal {
+    margin-top: 7%;
+}
+
+.arttotal h3{
+    font-size: 38px;
+}
+
+.artdimages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.artimages {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    width: 30%;
+    gap: 5px;
+}
+
+.imgsart {
+    width: 100%;
+    height: 30vh;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.tagart {
+    color: var(--cor-neon-2);
+}
+
+.divbutart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.butart {
+    width: 10%;
+    height: 42px;
+    font-family: 'Poiret one', serif;
+    padding: 5px;
+    border: 1px solid var(--cor-neon-3);
+    border-radius: 5px;
+    background-color: #fff;
+    color: var(--cor-neon-3);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s ease;
+}
+
+.butart:hover {
+    background-color: var(--cor-neon-3);
+    color: white;
+    transform: scale(1.1);
+}
+
