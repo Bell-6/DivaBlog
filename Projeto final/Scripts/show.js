@@ -66,7 +66,7 @@ function mostrarDestaque(post) {
                 <h4 class="ptagdes">${post.categoria}</h4>
                 
                 <p class="pdatades">
-                <i class="fa-regular fa-calendar"></i>  ${post.data} · <i class="fa-regular fa-clock"></i> <span data-editado="${post.editadoEm}">${tempoDesde(post.editadoEm)}</span>
+                <i class="fa-regular fa-calendar" style="color: var(--cor-neon-3)"></i>  ${post.data} · <i class="fa-regular fa-clock" style="color: var(--cor-neon-3)"></i> <span data-editado="${post.editadoEm}">${tempoDesde(post.editadoEm)}</span>
                 </p>
             </div>
 
@@ -103,7 +103,7 @@ function mostrarPopulares(posts) {
                 <div class="textimg">
                     <h4 class="ptagpop">${post.categoria}</h4>
                     <p>${post.titulo}</p>
-                    <p>${post.data} · <i class="fa-regular fa-clock"></i> <span data-editado="${post.editadoEm}">${tempoDesde(post.editadoEm)}</span></p>
+                    <p>${post.data} <i class="fa-regular fa-clock" style="color: var(--cor-neon-3)"></i> <span data-editado ="${post.editadoEm}">${tempoDesde(post.editadoEm)}</span></p>
                 </div>
             </a>
         `;
@@ -130,8 +130,6 @@ function mostrarArtigos(posts) {
             link = '../Pages/Subpages/Sabrina.html'
         } else if (post.titulo.includes("Rita")) {
             link = '../Pages/Subpages/Rita.html'
-        } else if (post.titulo.includes("Olivia")) {
-            link = '../Pages/Subpages/Olivia.html'
         } else if (post.titulo.includes("Lady")) {
             link = '../Pages/Subpages/Lady.html'
         } else if (post.titulo.includes("Marina")) {
@@ -140,13 +138,19 @@ function mostrarArtigos(posts) {
             link = '../Pages/Subpages/Chappell.html'
         } else if (post.titulo.includes("Lana")) {
             link = '../Pages/Subpages/Lana.html'
+        } else if (post.titulo.includes("Lauren")) {
+            link = '../Pages/Subpages/Lauren.html'
         } else if (post.titulo.includes("Ana")) {
             link = '../Pages/Subpages/Ana.html'
         } else if (post.titulo.includes("Camilla")) {
             link = '../Pages/Subpages/Camilla.html'
         } else if (post.titulo.includes("Katy")) {
             link = '../Pages/Subpages/Katy.html'
-        }  
+        }  else if (post.titulo.includes("Beyonce")) {
+            link = '../Pages/Subpages/Beyonce.html'
+        } else if (post.titulo.includes("Olivia")) {
+            link = '../Pages/Subpages/Oli'
+        }
 
         const div = document.createElement("div");
         div.classList.add("artimages");

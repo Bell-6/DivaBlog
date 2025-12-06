@@ -2,18 +2,21 @@ const API_URL = "http://localhost:3000/posts";
 
 // ID das páginas para ao clicar nos artigos semelhantes funcionar
 const PAGINAS = {
+    "4b4a": 'Ana.html',
     "109a":  'Ariana.html',
     "de9a":  'Billie.html',
     "f2f1":   'Britney.html',
+    "6115":   'Camilla.html',
     "9861":  'Chappell.html',
     "5f83":  'Dua.html',
-    "1bfb":  'Marina.html',
-    "389f":  'Melaine.html',
-    "1be9":  'Laufey.html',
-    "3dab":  'Sabrina.html',
-    "21c9":  'Rita.html',
     "d8a3":  'Lady.html',
     "8f79":  'Lana.html',
+    "c98b": 'Lauren.html',
+    "1be9":  'Laufey.html',
+    "1bfb":  'Marina.html',
+    "389f":  'Melaine.html',
+    "21c9":  'Rita.html',
+    "3dab":  'Sabrina.html',
     "df50":  'Taylor.html'
 };
 

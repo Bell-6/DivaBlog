@@ -110,9 +110,14 @@
     justify-content: space-between;
 }
 
+.pdatades{
+    font-size: 15px;
+}
+
 .ptagdes {
     color: var(--cor-neon-2);
     font-size: 20px;
+    font-family: 'Onest';
 }
 
 .populares{
@@ -120,24 +125,48 @@
 }
 
 .textdest {
-    margin-top: 3%;
+    margin-top: 4%;
     font-size: 25px;
 }
 
+.barra_pesquisa{
+  display: flex;
+  align-items: center;
+  width: 340px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px var(--cor-neon-4);
+  padding: 4px;
+}
+
 input[type = "search"] {
-    width: 20%;
-    padding: 5px;
-    border: 1px solid var(--cor-neon-1);
-    border-radius: 5px;
-    color: #5c5a5a;
-    font-family: 'Poiret one', serif;
+  flex: 1;
+  padding: 10px 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 8px 0 0 8px ;
+}
+
+.busca::placeholder{
+    color: rgb(200, 193, 193);
+}
+
+.barra_pesquisa button{
+  background: var(--cor-neon-4); /* roxo parecido com o da imagem */
+  border: none;
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;    
 }
 
 .wrapper {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 40px;
     gap: 30px;
 }
 
@@ -159,6 +188,7 @@ input[type = "search"] {
 
 .divimgp {
     margin-left: 200px;
+    margin-top: 40px;
 }
 
 .textimg {
@@ -172,13 +202,15 @@ input[type = "search"] {
 
 .pimg {
     width: 100%;
-    height: 100%;
+    height: 100px;
     border-radius: 5px;
 }
 
 .ptagpop {
-    color: var(--cor-neon-2);
+    color: var(--cor-neon-1);
     font-weight: bold;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .artigosdiv {
@@ -187,13 +219,12 @@ input[type = "search"] {
     margin-top: 20px;
 }
 
-
 .arttotal {
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 .arttotal h3{
-    font-size: 38px;
+    font-size: 40px;
 }
 
 .artdimages {
@@ -203,15 +234,16 @@ input[type = "search"] {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 .artimages {
     display: flex;
     flex-direction: column;
-    margin-top: 1%;
+    margin-top: 3%;
     width: 30%;
-    gap: 5px;
+    gap: 6px;
+    
 }
 
 .imgsart {
@@ -223,33 +255,49 @@ input[type = "search"] {
 }
 
 .tagart {
-    color: var(--cor-neon-2);
+    color: var(--cor-neon-1);
+    font-size: 17px;
+    font-family: 'Onest';
 }
 
 .divbutart {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+    margin-top:6%;
+}
+
+.date_and_hours{
+    font-size: 20px;
 }
 
 .butart {
-    width: 10%;
-    height: 42px;
+    width: 12%;
+    height: 50px;
     font-family: 'Poiret one', serif;
     padding: 5px;
-    border: 1px solid var(--cor-neon-3);
+    border: 2px solid var(--cor-neon-4);
     border-radius: 5px;
     background-color: #fff;
-    color: var(--cor-neon-3);
+    color: var(--cor-neon-4);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     transition: 0.5s ease;
 }
 
 .butart:hover {
-    background-color: var(--cor-neon-3);
+    background-color: var(--cor-neon-4);
     color: white;
     transform: scale(1.1);
 }
 
+@media (max-width: 425px) {
+    .divtotcom {
+        width: 100%;
+        max-width: 425px;
+    }
+
+    .titsho {
+        font-size: 1px;
+    }
+}
