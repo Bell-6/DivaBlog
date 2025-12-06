@@ -200,13 +200,12 @@ async function CarregarPosts() {
             <div class="infor">
                 <p class="desc" data-categoria="${post.categoria}">${post.mensagem}</p>
                 <div class="date_and_user">
-                    <p class="date"><i class="fa-regular fa-calendar"></i> ${post.data}</p>
-                    <p>.</p>
-                    <p class="perfil"><i class="fa-regular fa-user"></i> ${post.autor}</p>
+                    <p class="date"><i class="fa-regular fa-calendar"  style="color: #7173D4;"></i> ${post.data}</p>
+                    <p class="perfil"><i class="fa-regular fa-user"style="color:  #7173D4;"></i> ${post.autor}</p>
                 </div>
                 <div class="botoes">
-                    <button class="edit">Editar</button>
-                    <button class="delete">Excluir</button>
+                    <button class="edit"> <strong> <i class="fa-solid fa-pen-to-square" style="color: #ffffff;"></i> Editar </strong> </button>
+                    <button class="delete"> <strong> <i class="fa-solid fa-trash-can" style="color: #ffffff;"></i> Excluir </strong> </button>
                 </div>
             </div>
         `;

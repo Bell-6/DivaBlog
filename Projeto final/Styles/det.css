@@ -1,11 +1,11 @@
 .divtotdes {
-    height: 40vh;
+    height: 55vh;
     background: var(--cor-neon-2) 
 }
 
 .dvoltat {
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 40px;
     width: 100%;
     max-width: 1000px;
 }
@@ -14,6 +14,7 @@
     font-family: 'Poiret one', serif;
     color: #fff;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .banner {
@@ -29,8 +30,8 @@
 }
 
 .imgsobrepo {
-    width: 100%;
-    height: 50vh;
+    width: 130%;
+    height: 60vh;
     border-radius: 5px;
 }
 
@@ -44,11 +45,12 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    width: 60%;
-    max-width: 1000px;
+    width: 65%;
+    max-width: 1200px;
+    height: 200px;
     margin-top: 10%;
-    gap: 10px;
-    padding: 20px;
+    gap: 25px;
+    padding: 40px;
     border-radius: 5px;
     box-shadow: 0 5px 10px var(--cor-neon-3);
 }
@@ -56,14 +58,17 @@
 .buttag {
     width: 10%;
     border: none;
-    background-color: #d4e9ff;
-    color: var(--cor-neon-2);
+    background-color: #e6f1fb;
+    color: var(--cor-neon-1);
     font-weight: bold;
+    font-size: 15px;
+    font-family: 'Onest';
 }
 
 .infosobre {
     display: flex;
-    gap: 5%;
+    gap: 12%;
+    font-size: 15px;
 }
 
 .postLinkd {
@@ -90,7 +95,7 @@
 
 .mainsub {
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 6%;
     width: 100%;
     max-width: 800px;
     font-family: 'Poiret one', serif;
@@ -123,32 +128,34 @@
     display: flex;
     justify-content: space-between;
     padding-top: 20px ;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 12%;
+    margin-bottom: 12%;
     border-top: 1px solid var(--cor-neon-1);
 }
 
 .subicons {
     display: flex;
-    gap: 15px;
+    gap: 30px;
 }
 
 .todfoose {
-    height: 80vh;
+    height: 88vh;
     padding-top: 1px;
     background-color: var(--cor-neon-2);
+
 }
 
 .divseme {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 7%;
     margin-bottom: 5%;
     font-family: 'Poiret one', serif;
 }
 
 .titseme {
     color: #fff;
+    font-size: 30px;
 }
 
 .cardsseme {
@@ -177,6 +184,7 @@
 .tagseme {
     color: var(--cor-neon-1);
     font-weight: bold;
+    font-family: 'Onest';
 }
 
 .h4seme {

@@ -96,6 +96,7 @@
 
 .divimgg h2{
     font-size: 35px;
+    font-family: 'Onest';
 }
 
 .imgg {
@@ -111,21 +112,22 @@
 }
 
 .pdatades{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .ptagdes {
     color: var(--cor-neon-2);
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Onest';
 }
 
 .populares{
     font-size: 28px;
+    font-family: 'Onest';
 }
 
 .textdest {
-    margin-top: 4%;
+    margin-top: 3%;
     font-size: 25px;
 }
 
@@ -168,6 +170,7 @@ input[type = "search"] {
     flex-direction: column;
     margin-top: 40px;
     gap: 30px;
+
 }
 
 .divpimg {
@@ -188,7 +191,7 @@ input[type = "search"] {
 
 .divimgp {
     margin-left: 200px;
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 .textimg {
@@ -225,6 +228,7 @@ input[type = "search"] {
 
 .arttotal h3{
     font-size: 40px;
+    font-family: 'Onest';
 }
 
 .artdimages {
@@ -247,8 +251,8 @@ input[type = "search"] {
 }
 
 .imgsart {
-    width: 100%;
-    height: 30vh;
+    width: 105%;
+    height: 35vh;
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom: 2%;
