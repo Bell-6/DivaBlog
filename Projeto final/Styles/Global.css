@@ -18,7 +18,7 @@
 }
 
 .divtotcom {
-    height: 20vw;
+    height: auto;
     border: 1px solid black;
 }
 
@@ -112,4 +112,72 @@ footer {
     border: 1px solid #c7bfbfa5;
     border-radius: 50%;
     cursor: pointer;
+}
+
+@media (max-width: 728px) {
+    .titsho {
+        font-size: 30px;
+    }
+
+    .divtags {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+
+    .footext {
+        width: 50%;
+    }
+
+    .footext h3 {
+        font-size: 25px;
+    }
+
+    .footext p {
+        font-size: 15px;
+    }
+
+    .foomenu h3 {
+        font-size: 25px;
+    }
+
+    .foomenu p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .titsho {
+        font-size: 25px;
+    }
+
+    .divtags {
+        font-size: 15px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+
+    .footext {
+        width: 50%;
+    }
+
+    .footext h3 {
+        font-size: 25px;
+    }
+
+    .footext p {
+        font-size: 13px;
+    }
+
+    .foomenu h3 {
+        font-size: 20px;
+    }
+
+    .foomenu p {
+        font-size: 15px;
+    }
 }

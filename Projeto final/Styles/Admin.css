@@ -304,3 +304,41 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .titup {
+        font-size: 30px;
+    } 
+
+    .pup {
+        font-size: 25px;
+    }
+
+    .publicacoes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .carregarmais {
+        width: 30%;
+    }
+}
+
+@media (max-width: 425px) {
+    .titup {
+        font-size: 25px;
+    } 
+
+    .pup {
+        font-size: 20px;
+    }
+
+    .publicacoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carregarmais {
+        width: 60%;
+    }
+}

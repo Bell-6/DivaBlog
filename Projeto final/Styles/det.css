@@ -196,3 +196,39 @@
     gap: 10px;
     color: #e8e8e8;
 }
+
+@media (max-width: 768px) {
+    .divsobrepo {
+        width: 100%;
+    }
+
+    .buttag {
+        width: 25%;
+    }
+
+    .divsobrepo h2{
+        font-size: 20px;
+    }
+
+    .titseme {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 425px) {
+    .divsobrepo {
+        width: 100%;
+    }
+
+    .buttag {
+        width: 25%;
+    }
+
+    .divsobrepo h2{
+        font-size: 17px;
+    }
+
+    .titseme {
+        font-size: 20px;
+    }
+}

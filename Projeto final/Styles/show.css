@@ -155,7 +155,7 @@ input[type = "search"] {
 }
 
 .barra_pesquisa button{
-  background: var(--cor-neon-4); /* roxo parecido com o da imagem */
+  background: var(--cor-neon-4); 
   border: none;
   padding: 10px 14px;
   border-radius: 0 8px 8px 0;
@@ -295,13 +295,162 @@ input[type = "search"] {
     transform: scale(1.1);
 }
 
+@media (max-width: 768px) {
+    .textmeio {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .ppmeio {
+        font-size: 22px;
+    }
+
+    .divimages {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .divimgg {
+        margin: 0 auto;
+    }
+
+    .divimgg h2 {
+        font-size: 30px;
+    }
+
+    .ptagdes {
+        font-size: 19px;
+    }
+
+    .pdatades {
+        font-size: 18px;
+    }
+
+    .textdest {
+        font-size: 23px;
+    }
+
+    .divimgp {
+        margin-top: 10%;
+        margin-left: 40px;
+    }
+
+    .populares {
+        text-align: center;
+    }
+
+    .artigosdiv {
+        margin-left: 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .arttotal {
+        margin: 0 auto;
+        margin-top: 10%;
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .arttotal h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .barra_pesquisa {
+        margin: 0 auto;
+    }
+
+    .artdimages {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .artimages {
+        width: 60%;
+    }
+
+    .butart {
+        width: 30%;
+    }
+}
+
 @media (max-width: 425px) {
-    .divtotcom {
+    .textmeio {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .ppmeio {
+        font-size: 15px;
+    }
+
+    .divimages {
+        width: 100%;
+        max-width: 425px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .divimgg {
+        margin: 0 auto;
+    }
+
+    .divimgg h2 {
+        font-size: 25px;
+    }
+
+    .ptagdes {
+        font-size: 14px;
+    }
+
+    .pdatades {
+        font-size: 13px;
+    }
+
+    .textdest {
+        font-size: 18px;
+    }
+
+    .divimgp {
+        margin-top: 10%;
+        margin-left: 40px;
+    }
+
+    .populares {
+        text-align: center;
+    }
+
+    .artigosdiv {
+        margin-left: 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .arttotal {
         width: 100%;
         max-width: 425px;
     }
 
-    .titsho {
-        font-size: 1px;
+    .arttotal h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .artdimages {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .artimages {
+        width: 80%;
+    }
+
+    .butart {
+        width: 30%;
     }
 }

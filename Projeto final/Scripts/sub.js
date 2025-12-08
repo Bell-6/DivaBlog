@@ -69,4 +69,44 @@ async function carregarSemelhantes() {
   });
 }
 
+async function carregarSemelhantes() {
+  const res = await fetch(API_URL);
+  const posts = await res.json();
+
+  const relacionados = posts.filter(post =>
+    post.categoria.toLowerCase() === categoriaAtual && post.id !== postAtualID
+  );
+
+  relacionados.sort(() => 0.5 - Math.random());
+
+  cards.forEach((card, index) => {
+    const post = relacionados[index];
+
+    card.querySelector(".imgseme").src = post.url;
+    card.querySelector(".tagseme").innerText = post.categoria;
+    card.querySelector(".h4seme").innerText = post.titulo;
+    card.querySelectorAll(".autortempo p")[0].innerText = post.data;
+    card.querySelectorAll(".autortempo p")[2].innerText = tempoDesde(post.editadoEm);
+
+    const link = PAGINAS[post.id];
+    if (link) {
+      card.onclick = () => window.location.href = link;
+      card.style.cursor = "pointer";
+    }
+  });
+}
+
+const btnScrollToTop = document.getElementById("topp");
+
+btnScrollToTop.addEventListener("click", function () {
+
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    })
+
+});
+
+
 carregarSemelhantes();
