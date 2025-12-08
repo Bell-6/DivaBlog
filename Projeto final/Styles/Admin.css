@@ -75,6 +75,12 @@ section {
     color: #fff;
     font-family: 'Poiret one', serif; 
     cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.butup:hover {
+    background-color: var(--cor-neon-2);
+    transform: scale(1.15);
 }
 
 .artigos{
@@ -156,6 +162,12 @@ button {
     border-radius: 8px;
     border:none;
     cursor:pointer;
+    transition: 0.5s ease;
+}
+
+.edit:hover {
+    background-color: var(--cor-neon-2);
+    transform: scale(1.08);
 }
 
 .delete {
@@ -166,7 +178,14 @@ button {
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    transition: 0.5s ease;
 }
+
+.delete:hover {
+    background-color: var(--cor-neon-2);
+    transform: scale(1.08);
+}
+
 
 .restodapag {
     align-items: center;
@@ -259,10 +278,15 @@ textarea {
     background: rgba(37, 36, 36, 0.6);
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
 }
 
 .modal-overlay.active {
     display: flex;
+    opacity: 1;
+    pointer-events: all;
 }
 
 .formex {
@@ -304,6 +328,40 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
 }
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes modalFadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+}
+
+.modal-overlay .form,
+.modal-overlay .formex {
+    animation: modalFadeIn 0.5s ease forwards;
+}
+
+
+.modal-overlay.closing .form,
+.modal-overlay.closing .formex {
+    animation: modalFadeOut 0.3s ease forwards;
+}
+
 
 @media (max-width: 768px) {
     .titup {

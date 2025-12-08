@@ -112,11 +112,20 @@ function mostrarPopulares(posts) {
     });
 }
 
-// Post que ficarão na parte de artigos funcionar
+function embaralhar(lista) {
+    for (let i = lista.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [lista[i], lista[j]] = [lista[j], lista[i]];
+    }
+    return lista;
+}
+
+// Partes que ficarão os artigos funcionar
 function mostrarArtigos(posts) {
     artigosContainer.innerHTML = "";
 
-    posts.forEach(post => {
+    const embaralhados = embaralhar([...posts]); 
+    embaralhados.forEach(post => {
 
         let link = '#';
 
@@ -146,10 +155,6 @@ function mostrarArtigos(posts) {
             link = '../Pages/Subpages/Camilla.html'
         } else if (post.titulo.includes("Katy")) {
             link = '../Pages/Subpages/Katy.html'
-        }  else if (post.titulo.includes("Beyonce")) {
-            link = '../Pages/Subpages/Beyonce.html'
-        } else if (post.titulo.includes("Olivia")) {
-            link = '../Pages/Subpages/Oli'
         }
 
         const div = document.createElement("div");
